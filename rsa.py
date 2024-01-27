@@ -9,7 +9,7 @@ def facto(num):
         if (f1 <= num):
             f1 += 1
 
-    f2 = num / f1
+    f2 = num // f1
     return (f2, f1)
 
 
