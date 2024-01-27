@@ -6,3 +6,25 @@ from sys import argv
 def factorize(num_check):
 	""" find two small numbers that multiplt given number"""
 	i = 2
+
+
+        if num_check % i:
+            i += 1
+        print('{:.0f}={:.0f}*{:.0f}'.format(num_check, num_check / i, i))
+
+
+    if len(argv) != 2:
+        exit()
+
+
+    try:
+        with open(argv[1] as file:
+            line = file.readline()
+
+
+            while line != "":
+                num_check = int(line.split('\n')[0])
+                factorize(num_check)
+                line = file.readline()
+    except:
+        pass
