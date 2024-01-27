@@ -25,4 +25,4 @@ lines = file.readlines()
 for line in lines:
     num = int(line.rstrip())
     f2, f1 = facto(num)
-    print(f"{num} = {f2} * {f1}")
+    print(f"{num}={f2}*{f1}")
