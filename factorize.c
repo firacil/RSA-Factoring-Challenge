@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	long long int no = 239809320265259;
+	long long int no = ;
 	long int f1 = 2;
 	long int f2;
 
@@ -26,6 +26,6 @@ int main(void)
 
 
 	f2 = no / f1;
-	printf("%lli = %li * %li\n", no, f2, f1);
+	printf("%lld = %ld * %ld\n", no, f2, f1);
 	return (0);
 }
